@@ -1,0 +1,87 @@
+.navbar{
+    /* border-bottom: 5px solid rgb(0, 94, 255); */
+    box-shadow: 0 2px 7px rgb(27, 170, 151);
+}
+
+
+header{
+    min-height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.651) , rgba(7, 145, 138, 0.158)) , url(../images/head_bg.jpg);
+    /*background: url(../images/head_bg.jpg);*/
+    background-position: center;
+    background-size: cover;
+}
+
+.header-text{
+    text-align: center;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+
+#about h5{
+    letter-spacing: 5px;
+}
+#about img{
+    min-height: 100%;
+}
+
+
+.bg-turquoise {
+    background-color: #04beac; /* Turquoise color */
+}
+
+.bg-dark-turquoise {
+    background-color: #000000; /* Dark turquoise color */
+}
+
+
+.btn-turquoise {
+    background-color: #04beac; /* Turquoise background color */
+    color: #FFFFFF; /* White text color */
+}
+
+.btn-turquoise:hover {
+    background-color: #04beac; /* Darker shade of turquoise on hover */
+}
+
+.bg-turquoise {
+    background-color: #04beac; /* Turquoise background color */
+}
+
+.border-turquoise {
+    border-color: #04beac; /* Turquoise border color */
+}
+
+
+.bg-turquoise {
+    background-color: #04beac; /* Turquoise background color */
+}
+
+.text-turquoise {
+    color: #04beac; /* Turquoise text color */
+}
+
+
+
+
+.btn-turquoise {
+    background-color: #04beac; /* Turquoise color */
+    color: #000000; /* Text color */
+}
+
+.btn-turquoise:hover {
+    background-color: #04beac; /* Darker turquoise color on hover */
+}
+
+
+.text-turquoise {
+    color: #04beac; /* Turquoise color */
+}
+
+
+.alert-turquoise {
+    background-color: #04beac; /* Turquoise color */
+    color: #000000; /* Text color */
+}

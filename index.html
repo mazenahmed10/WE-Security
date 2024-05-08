@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WE security solution</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="shortcut icon" href="images/We_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+      // Function to scroll to the top of the document
+      function scrollToTop() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+
+      // Event listener to scroll to the top when the page is refreshed
+      window.onload = function() {
+          scrollToTop();
+          // Redirect to the homepage when the page is refreshed
+          if (window.performance) {
+              if (performance.navigation.type == 1) {
+                  window.location.href = "index.html"; // Replace "index.html" with your homepage URL
+              }
+          }
+      };
+  </script>
+  <style>
+    /* Add animation on image hover */
+    .card:hover img {
+        transform: scale(1.1); /* Increase image size on hover */
+        transition: transform 0.5s ease; /* Add smooth transition effect */
+    }
+</style>
+</head>
+<body>
+
+    
+  <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top bg-opacity-75 wow slideInDown" data-wow-duration="0.7s" data-wow-delay="0.05s" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="index.html"> <img src="images/logo.png" height="50" alt="We School"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#plans">Price Plans</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial">Testimonial</a>
+              </li>
+
+              <!--  <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#services">Products</a></li>
+                  <li><a class="dropdown-item" href="#testimonial">blog</a></li>
+                </ul>
+              </li>-->
+
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+
+      <header>
+        <div class="header-text text-white wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h5 class="mb-3">BEST SECURITY SERVICES</h5>
+            <h1 class="display-4 fw-bold mb-5">Safe & Secure Home <br> For Your Family</h1>
+            <!--<a href="#" class="btn btn-info btn-lg me-3">Read More</a>-->
+            <button type="button" class="btn btn-outline-info btn-lg me-3 fw-bold">Read More</button>
+            <button type="button" class="btn btn-outline-danger btn-lg fw-bold">Contact US</button>
+        </div>
+    </header>
+
+
+    <!-- Start Service -->
+    <section class="py-5" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/about.jpg" alt="company name" class="w-100">
+                </div><!-- left -->
+
+                <div class="col-md-8">
+                    <h5 class="text-primary">ABOUT US</h5>
+                    <h3 class="display-4 fw-bold">
+                      We Offers Quality CCTV <br> Systems & Services
+                    </h3>
+
+                    <p class="lead my-3 fw-medium text-secondary">Welcome to Smart Security, your trusted partner for professional CCTV installation services. We understand the importance of security and peace of mind, which is why we offer expert CCTV installation solutions tailored to your specific needs.
+
+                    </p>
+
+                    <p class="fw-medium">We are a team of passionate experts dedicated to revolutionizing the security industry. With years of experience in the field, our team brings together expertise in software development, hardware engineering, and user experience design to craft intuitive and reliable security solutions.</p>
+                    <div class="d-flex">
+                      <div class="bg-turquoise p-3 text-white border-bottom border-dark border-3 text-center me-3">
+                          <div class="wow flip" data-wow-duration="1s" data-wow-delay="0.2s"><i class="fa-solid fa-star fa-3x mb-3"></i></div>
+                          <h6>20 Years' Experience</h6>
+                      </div>
+                      <div class="bg-dark-turquoise p-3 text-white border-bottom border-info border-3 text-center me-3">
+                          <div class="wow flip" data-wow-duration="1s" data-wow-delay="0.2s"><i class="fa-solid fa-medal fa-3x mb-3"></i></div>
+                          <h6>Quality certificate</h6>
+                      </div>
+                  </div><!-- d-flex -->
+                  
+                </div> <!-- right -->
+            </div><!-- row -->
+        </div><!--  container -->
+    </section>
+    <!-- End Service -->
+
+
+    <!-- Start Services -->
+    <section class="py-5" id="services">
+      <div class="container">
+
+         <h5 class="text-primary text-center">SERVICES</h5>
+         <h3 class="display-4 fw-bold text-center">
+          Our Excellent CCTV <br>  Security Services
+        </h3>
+
+          <div class="row">
+                          <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
+                              <div class="card p-3 shadow" style="border-radius: 15px;">
+                              <img src="images/security-camera1.png" class="w-50 mb-3 rounded-circle mx-auto d-block" alt="CCTV Installation">
+                              <h5 class="text-primary text-center">CCTV</h5>
+                              <h3 class="text-center fw-bold">Installation</h3>
+                              <p class="text-center">Ensure that your CCTV system is installed correctly. We handle every aspect of the installation process with precision and care, from site assessment to setup and configuration.</p>
+                              <div class="text-center">
+                                <a href="#" class="btn btn-turquoise rounded-pill" style="text-decoration: none;">Read More <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                              </div>
+                          </div><!-- card --> 
+                          </div><!-- service 1 -->
+              
+              
+                          <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
+                            <div class="card p-3 shadow" style="border-radius: 15px;">
+                              <img src="images/security-camera1.png" class="w-50 mb-3 rounded-circle mx-auto d-block" alt="CCTV Installation">
+                              <h5 class="text-primary text-center">CCTV</h5>
+                              <h3 class="text-center fw-bold">Installation</h3>
+                              <p class="text-center">Ensure that your CCTV system is installed correctly. We handle every aspect of the installation process with precision and care, from site assessment to setup and configuration.</p>
+                              <div class="text-center">
+                                <a href="#" class="btn btn-turquoise rounded-pill" style="text-decoration: none;">Read More <i class="fa-solid fa-arrow-right ms-2"></i></a>                              </div>
+                          </div><!-- card -->                          
+                          </div><!-- service 2 -->  
+                          
+                          <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
+                            <div class="card p-3 shadow" style="border-radius: 15px;">
+                              <img src="images/security-camera.png" class="w-50 mb-3 rounded-circle mx-auto d-block" alt="CCTV Installation">
+                              <h5 class="text-primary text-center">CCTV</h5>
+                              <h3 class="text-center fw-bold">Installation</h3>
+                              <p class="text-center">Ensure that your CCTV system is installed correctly. We handle every aspect of the installation process with precision and care, from site assessment to setup and configuration.</p>
+                              <div class="text-center">
+                                <a href="#" class="btn btn-turquoise rounded-pill" style="text-decoration: none;">Read More <i class="fa-solid fa-arrow-right ms-2"></i></a>                              </div>
+                          </div><!-- card -->
+                          </div><!-- service 3 -->
+              
+              
+                          <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
+                            <div class="card p-3 shadow" style="border-radius: 15px;">
+                              <img src="images/security-camera.png" class="w-50 mb-3 rounded-circle mx-auto d-block" alt="CCTV Installation">
+                              <h5 class="text-primary text-center">CCTV</h5>
+                              <h3 class="text-center fw-bold">Installation</h3>
+                              <p class="text-center">Ensure that your CCTV system is installed correctly. We handle every aspect of the installation process with precision and care, from site assessment to setup and configuration.</p>
+                              <div class="text-center">
+                                <a href="#" class="btn btn-turquoise rounded-pill" style="text-decoration: none;">Read More <i class="fa-solid fa-arrow-right ms-2"></i></a>                              </div>
+                          </div><!-- card -->
+                          </div><!-- service 4 -->
+              
+              
+                          <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
+                            <div class="card p-3 shadow" style="border-radius: 15px;">
+                              <img src="images/cctv.png" class="w-50 mb-3 rounded-circle mx-auto d-block" alt="CCTV Installation">
+                              <h5 class="text-primary text-center">CCTV</h5>
+                              <h3 class="text-center fw-bold">Installation</h3>
+                              <p class="text-center">Ensure that your CCTV system is installed correctly. We handle every aspect of the installation process with precision and care, from site assessment to setup and configuration.</p>
+                              <div class="text-center">
+                                <a href="#" class="btn btn-turquoise rounded-pill" style="text-decoration: none;">Read More <i class="fa-solid fa-arrow-right ms-2"></i></a>                              </div>
+                            </div><!-- card -->
+                          </div><!-- service 4 -->
+              
+              
+                          <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
+                            <div class="card p-3 shadow" style="border-radius: 15px;">
+                              <img src="images/cctv.png" class="w-50 mb-3 rounded-circle mx-auto d-block" alt="CCTV Installation">
+                              <h5 class="text-primary text-center">CCTV</h5>
+                              <h3 class="text-center fw-bold">Installation</h3>
+                              <p class="text-center">Ensure that your CCTV system is installed correctly. We handle every aspect of the installation process with precision and care, from site assessment to setup and configuration.</p>
+                              <div class="text-center">
+                                <a href="#" class="btn btn-turquoise rounded-pill" style="text-decoration: none;">Read More <i class="fa-solid fa-arrow-right ms-2"></i></a>                              </div>
+                          </div><!-- card -->
+                          </div><!-- service 6 -->
+              
+              
+                          <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
+                            <div class="card p-3 shadow" style="border-radius: 15px;">
+                              <img src="images/cctv1.png" class="w-50 mb-3 rounded-circle mx-auto d-block" alt="CCTV Installation">
+                              <h5 class="text-primary text-center">CCTV</h5>
+                              <h3 class="text-center fw-bold">Installation</h3>
+                              <p class="text-center">Ensure that your CCTV system is installed correctly. We handle every aspect of the installation process with precision and care, from site assessment to setup and configuration.</p>
+                              <div class="text-center">
+                                <a href="#" class="btn btn-turquoise rounded-pill" style="text-decoration: none;">Read More <i class="fa-solid fa-arrow-right ms-2"></i></a>                              </div>
+                          </div><!-- card -->
+                          </div><!-- service 7 -->
+              
+              
+              
+                          <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
+                            <div class="card p-3 shadow" style="border-radius: 15px;">
+                              <img src="images/cctv1.png" class="w-50 mb-3 rounded-circle mx-auto d-block" alt="CCTV Installation">
+                              <h5 class="text-primary text-center">CCTV</h5>
+                              <h3 class="text-center fw-bold">Installation</h3>
+                              <p class="text-center">Ensure that your CCTV system is installed correctly. We handle every aspect of the installation process with precision and care, from site assessment to setup and configuration.</p>
+                              <div class="text-center">
+                                <a href="#" class="btn btn-turquoise rounded-pill" style="text-decoration: none;">Read More <i class="fa-solid fa-arrow-right ms-2"></i></a>                              </div>
+                          </div><!-- card -->
+                          </div><!-- service 8 -->
+          </div><!-- row -->
+        </div><!--  container -->
+    </section>
+    <!-- End Services -->
+
+
+    <!-- Start price plan -->
+<section class="py-5" id="plans">
+  <div class="container">
+      <h5 class="text-primary text-center mb-4">PRICING PLAN</h5>
+      <h2 class="display-5 fw-bold text-center mb-5">Choose the Perfect Plan for Your Security Needs</h2>
+
+      <div class="row">
+          <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card border-turquoise h-100 shadow">
+                  <div class="card-header py-4 bg-turquoise text-decoration text-center">
+                      <h3>Basic Plan</h3>
+                      <h3><sup>$</sup>49 <sub style="font-size: 16px;">/mo</sub></h3>
+                  </div>
+                  <div class="card-body">
+                      <ul class="list-group list-group-flush">
+                          <li class="list-group-item">One Camera</li>
+                          <li class="list-group-item">24/7 Monitoring</li>
+                          <li class="list-group-item">Cloud Storage</li>
+                          <li class="list-group-item">Motion Detection</li>
+                          <li class="list-group-item">Mobile App Access</li>
+                      </ul>
+                  </div>
+                  <div class="card-footer text-center">
+                      <a href="#" class="btn btn-turquoise rounded-pill">Order Now</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card border-dark h-100 shadow">
+                  <div class="card-header py-4 bg-dark text-white text-center">
+                      <h3>Standard Plan</h3>
+                      <h3><sup>$</sup>69 <sub style="font-size: 16px;">/mo</sub></h3>
+                  </div>
+                  <div class="card-body">
+                      <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Two Cameras</li>
+                          <li class="list-group-item">Advanced Analytics</li>
+                          <li class="list-group-item">Local Storage</li>
+                          <li class="list-group-item">24/7 Customer Support</li>
+                          <li class="list-group-item">Custom Alerts</li>
+                      </ul>
+                  </div>
+                  <div class="card-footer text-center">
+                      <a href="#" class="btn btn-dark rounded-pill">Order Now</a>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 mb-4">
+              <div class="card border-turquoise h-100 shadow">
+                  <div class="card-header py-4 bg-turquoise text-decoration text-center">
+                      <h3>Extended Plan</h3>
+                      <h3><sup>$</sup>99 <sub style="font-size: 16px;">/mo</sub></h3>
+                  </div>
+                  <div class="card-body">
+                      <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Four Cameras</li>
+                          <li class="list-group-item">Smart Home Integration</li>
+                          <li class="list-group-item">Unlimited Cloud Storage</li>
+                          <li class="list-group-item">Advanced Motion Detection</li>
+                          <li class="list-group-item">Professional Installation</li>
+                      </ul>
+                  </div>
+                  <div class="card-footer text-center">
+                      <a href="#" class="btn btn-turquoise rounded-pill">Order Now</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>  
+<!-- End price plan -->
+
+
+
+
+    <!-- Start Team -->
+<section class="py-5" id="team">
+    <div class="container">
+        <h5 class="text-primary text-center">TEAM MEMBERS</h5>
+        <h3 class="display-5 fw-bold text-center mb-4">Our Professional Team Members</h3>
+        <div class="row pt-3">
+            <div class="col-md-4 col-sm-6 mb-2">
+                <div class="card bg-turquoise text-white text-center">
+                    <img src="images/team-1.jpg" alt="">
+                    <h4 class="my-3">Eng A.Ramadan</h4>
+                    <h5 class="mb-3">Manager</h5>
+                    <div class="d-flex justify-content-around pb-3">
+                        <a href="#" class="text-white"> <i class="fa-brands fa-twitter fa-2x"></i> </a>
+                        <a href="#" class="text-white"> <i class="fa-brands fa-facebook fa-2x"></i> </a>
+                        <a href="#" class="text-white"> <i class="fa-brands fa-instagram fa-2x"></i> </a>
+                        <a href="#" class="text-white"> <i class="fa-brands fa-whatsapp fa-2x"></i> </a>
+                    </div>
+                </div><!-- card -->
+            </div><!-- member 1 -->
+            <div class="col-md-4 col-sm-6 mb-2">
+                <div class="card bg-turquoise text-white text-center">
+                    <img src="images/team-2.jpg" alt="">
+                    <h4 class="my-3">Eng Mazen</h4>
+                    <h5 class="mb-3">Designer</h5>
+                    <div class="d-flex justify-content-around pb-3">
+                        <a href="#" class="text-white"> <i class="fa-brands fa-twitter fa-2x"></i> </a>
+                        <a href="#" class="text-white"> <i class="fa-brands fa-facebook fa-2x"></i> </a>
+                        <a href="#" class="text-white"> <i class="fa-brands fa-instagram fa-2x"></i> </a>
+                        <a href="#" class="text-white"> <i class="fa-brands fa-whatsapp fa-2x"></i> </a>
+                    </div>
+                </div><!-- card -->
+            </div><!-- member 2 -->
+            <div class="col-md-4 col-sm-6 mb-2">
+                <div class="card bg-turquoise text-white text-center">
+                    <img src="images/team-3.jpg" alt="">
+                    <h4 class="my-3">Mrs Shaimaa</h4>
+                    <h5 class="mb-3">HR</h5>
+                    <div class="d-flex justify-content-around pb-3">
+                        <a href="#" class="text-white"> <i class="fa-brands fa-twitter fa-2x"></i> </a>
+                        <a href="#" class="text-white"> <i class="fa-brands fa-facebook fa-2x"></i> </a>
+                        <a href="#" class="text-white"> <i class="fa-brands fa-instagram fa-2x"></i> </a>
+                        <a href="#" class="text-white"> <i class="fa-brands fa-whatsapp fa-2x"></i> </a>
+                    </div>
+                </div><!-- card -->
+            </div><!-- member 3 -->
+        </div><!-- row -->
+    </div><!--  container -->
+</section>
+<!-- End Team -->
+
+
+
+               <!-- Start TESTIMONIAL -->
+               <section class="py-5" id="testimonial">
+                <div class="container">
+    
+                   <h5 class="text-primary text-center">TESTIMONIAL</h5>
+                   <h3 class="display-5 fw-bold text-center mb-4">
+                    What People Say About <br> Our Services
+                  </h3>
+    
+                    <div class="row pt-5">
+    
+                      <div class=" col-md-4 col-sm-6 mb-2">
+                        <div class="card bg-primary bg-opacity-10  text-center border-0">
+                           <img src="images/testimonial-1.png" class="w-75 mx-auto rounded-circle" alt="" style="margin-top: -40px;">
+                           <p class="my-3">I've been using Smart Security's services for years, and I couldn't be happier. Their team is professional, knowledgeable, and always goes above and beyond to ensure our security needs are met. Highly recommend!</p>
+                           <h4 class="mb-3">Jimmy Carlos</h4>
+                           <h5 class="mb-3 text-secondary">Customer</h5>
+    
+                        </div><!-- card -->
+                      </div><!-- customer 1 -->
+    
+                      <div class=" col-md-4 col-sm-6 mb-2">
+                        <div class="card bg-primary bg-opacity-10  text-center border-0">
+                           <img src="images/testimonial-2.png" class="w-75 mx-auto rounded-circle" alt="" style="margin-top: -40px;">
+                           <p class="my-3">As a large corporation, security is our top priority. Smart Security has been our trusted partner for years, providing exceptional service and peace of mind. Their attention to detail and quick response times are unmatched.</p>
+                           <h4 class="mb-3">John Smith</h4>
+                           <h5 class="mb-3 text-secondary">Corporate Client</h5>
+    
+                        </div><!-- card -->
+                      </div><!-- customer 2 -->
+    
+                      <div class=" col-md-4 col-sm-6 mb-2">
+                        <div class="card bg-primary bg-opacity-10  text-center border-0">
+                           <img src="images/testimonial-3.png" class="w-75 mx-auto rounded-circle" alt="" style="margin-top: -40px;">
+                           <p class="my-3">Switching to Smart Security was one of the best decisions I made for my business. Their personalized approach and dedication to keeping my premises safe have been invaluable. I feel confident knowing they have my back.</p>
+                           <h4 class="mb-3">Emily Johnson</h4>
+                           <h5 class="mb-3 text-secondary">Small Business Owner</h5>
+    
+                        </div><!-- card -->
+                      </div><!-- customer 3 -->
+    
+                    </div><!-- row -->
+                  </div><!--  container -->
+              </section>
+              <!-- End TESTIMONIAL -->
+    
+
+
+
+              <!-- Start contact -->
+              <section class="py-5" id="contact">
+                <div class="container">
+                    <h5 class="text-primary text-center">Contact</h5>
+                    <h3 class="display-5 fw-bold text-center mb-4">Write Your Message <br> Contact Us</h3>
+            
+                    <div class="row">
+                        <div class="col-md-8">
+                            <form action="" method="">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text text-turquoise"><i class="fa-solid fa-user"></i></span>
+                                    <input type="text" class="form-control form-control-lg" placeholder="Your name">
+                                </div> <!-- name -->
+            
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text text-turquoise"><i class="fa-solid fa-envelope"></i></span>
+                                    <input type="email" class="form-control form-control-lg" placeholder="Your Email">
+                                </div> <!-- email -->
+            
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text text-turquoise"><i class="fa-solid fa-message"></i></span>
+                                    <textarea class="form-control form-control-lg" placeholder="Your Message" rows="3"></textarea>
+                                </div> <!-- message -->
+            
+                                <div class="input-group mb-3">
+                                    <button type="submit" class="btn btn-turquoise btn-lg w-100">Send</button>
+                                </div> <!-- submit -->
+                            </form>
+                        </div> <!-- left -->
+            
+                        <div class="col-md-4">
+                            <img src="images/contact.jpg" alt="" class="w-100">
+                        </div><!-- right -->
+                    </div>
+                </div><!-- container -->
+            </section>
+            <!-- End contact -->
+
+      
+          
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- JavaScript for smooth scrolling -->
+    <script>
+        $(document).ready(function(){
+            // Smooth scrolling when clicking on links
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+
+            <footer class="py-3 bg-dark text-white text-center">
+              <h5>Created By We Students </h5>
+          </footer>
+        
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+</body>
+</html>
